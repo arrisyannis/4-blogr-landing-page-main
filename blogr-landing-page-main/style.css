@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Karla:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Overpass:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#upper {
+    background-color: hsl(356, 100%, 66%);
+    padding-bottom: 7rem;
+    border-bottom-left-radius: 4rem;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 8rem;
+    align-items: center;
+}
+
+#nav-ul {}
+
+#nav-ul ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding-right: 30rem;
+    font-size: 1.3rem;
+}
+
+#nav-btn {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+#nav-btn button {
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    background-color: hsl(356, 100%, 66%);
+    color: white;
+}
+
+#header {}
+
+#header h1 {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+#header p {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 1.4rem;
+}
+
+#header-button {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#header-button button {
+    padding: 1rem 1.3rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    background-color: hsl(356, 100%, 66%);
+    color: white;
+    font-size: 1.2rem;
+}
+
+#main-1 {
+    display: flex;
+}
+
+#main-1-h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: 1.3rem;
+    overflow: hidden;
+    position: absolute;
+    left: 33rem;
+    color: hsl(208, 49%, 24%);
+}
+
+#main-1-text {
+    display: flex;
+    width: 70%;
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+}
+
+#main-1-text h2 {
+    font-size: 2rem;
+    padding: 2rem 0;
+    color: hsl(208, 49%, 24%);
+    padding-left: 10rem;
+}
+
+#main-1-text p {
+    padding: 0 5rem;
+    color: hsl(237, 17%, 21%);
+    padding-left: 10rem;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.7rem;
+}
+
+#main-1-img {
+    display: flex;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#main-1-img img {
+    max-width: initial;
+    margin-top: 8rem;
+}
+
+#main-2 {
+    display: flex;
+    background-color: hsl(237, 23%, 32%);
+    height: 25rem;
+    margin-bottom: 10rem;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+}
+
+#main-2-img {
+    position: relative;
+}
+
+#main-2-img img {
+    position: absolute;
+    bottom: -7rem;
+    left: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+#main-2-text h1 {
+    padding-left: 47rem;
+    padding-top: 5rem;
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+#main-2-text p {
+    color: aliceblue;
+    width: 31rem;
+    padding-left: 47rem;
+    padding-top: 3rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+#main-3 {
+    display: flex;
+    position: relative;
+}
+
+#main-3-img {
+    overflow: hidden;
+}
+
+#main-3-img img {
+    max-width: initial;
+    left: -17rem;
+    position: absolute;
+}
+
+#main-3-text {
+    margin-top: 9rem;
+}
+
+#main-3-text h1 {
+    padding-left: 47rem;
+    padding-top: 3rem;
+    color: hsl(208, 49%, 24%);
+    letter-spacing: 0.02rem;
+    line-height: 1.7rem;
+}
+
+#main-3-text p {
+    padding-left: 47rem;
+    padding-top: 3rem;
+    width: 37rem;
+    color: hsl(237, 17%, 21%);
+    letter-spacing: 0.02rem;
+    line-height: 1.7rem;
+    margin-bottom: 10rem;
+}
+
+#footer {
+    background-color: hsl(240, 10%, 16%);
+    height: 20rem;
+    border-top-right-radius: 5rem;
+    display: flex;
+}
+
+#footer img {
+    width: 10%;
+    height: fit-content;
+    padding: 3rem 7rem;
+}
+
+#footer-list {
+    display: flex;
+    gap: 10rem;
+    justify-content: space-between;
+}
+
+.list {
+    padding: 1rem;
+    list-style: none;
+    padding: 2rem;
+}
+
+.list li {
+    padding: 0.5rem;
+}
+
+.list h3 {
+    padding-bottom: 2rem;
+    color: aliceblue;
+}
